@@ -172,3 +172,21 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# ===================================
+# AML Lab 3 - Project specific
+# ===================================
+
+# Datasets
+data/
+tiny-imagenet/
+tiny-imagenet-200/
+*.zip
+
+# Trained models
+checkpoints/
+*.pth
+*.pt
+
+# Weights & Biases
+wandb/
